@@ -10,6 +10,7 @@ import { NewsApiService } from './news-api.service';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule, MatCardModule, MatMenuModule, MatToolbarModule, MatIconModule, MatSidenavModule, MatListModule } from '@angular/material';
 import { from } from 'rxjs';
+import {GoTopButtonModule} from 'ng2-go-top-button';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { from } from 'rxjs';
     MatToolbarModule,
     MatIconModule,
     MatSidenavModule,
-    MatListModule
+    MatListModule,
+    GoTopButtonModule
   ],
   providers: [NewsApiService],
   bootstrap: [AppComponent]
