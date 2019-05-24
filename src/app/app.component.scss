@@ -1,0 +1,59 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  
+  .example-card{
+      margin-top: 4px;
+      background-color: rgb(255, 239, 255);
+  }
+  
+  .example-header-image { 
+    background-size: cover;
+  }
+  
+  .title{
+      font-weight: bold;
+      font-size: 30px;
+      text-decoration: none;
+      color: rgb(120, 37, 197);
+  }
+  
+  .action-buttons{
+      text-align: center;
+  }
+  
+  .example-container {
+      width: 100%;
+      height: auto;
+      border: 3px solid rgba(111, 111, 111, 0.50);
+      background-color: darkslateblue;
+  }
+  
+  .example-sidenav-content {
+      display: flex;
+      height: 75%;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .example-sidenav {
+      padding: 20px;
+  }
+  
+  .source-name {
+      margin-left:5px; 
+  }
+  
+  .list-item:hover{
+      cursor: pointer;
+      background-color: rgb(241, 241, 241);
+  }
+  
+  .img-article {
+      height: auto;
+      max-width: auto;
+  }
+
+  .card-content {
+      padding-top: 25px;
+  }

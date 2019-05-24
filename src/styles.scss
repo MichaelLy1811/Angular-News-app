@@ -1,9 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
 
 
-@import '~@angular/material/prebuilt-themes/pink-bluegrey.css';
+@import '~@angular/material/theming';
+
+
+@include mat-core();
+
+// Define the theme.
+$news-app-primary: mat-palette($mat-purple, 600);
+$news-app-accent:  mat-palette($mat-purple, 400);
+$news-app-ground:  mat-palette($mat-purple, 700);
+$news-app-theme:   mat-light-theme($news-app-primary, $news-app-accent, $news-app-ground);
+
+@include angular-material-theme($news-app-theme);
+
 
 body {
-    padding: 2em;
-    background: cornflowerblue;
+    padding: 2em 5em;
+    background: rgb(71, 0, 71);
 }
